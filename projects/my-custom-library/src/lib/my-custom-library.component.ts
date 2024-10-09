@@ -4,7 +4,8 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 @Component({
   selector: 'lib-my-custom-library',
-  standalone: false,
+  standalone: true,
+  imports: [MatToolbarModule, MatButtonToggleModule],
   template: `
     <mat-toolbar color="primary">
   My Custom Library
