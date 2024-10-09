@@ -12,7 +12,8 @@
     "skipLibCheck": true,
     "paths": {
       "my-custom-library": [
-        "./dist/my-custom-library"
+        "./dist/my-custom-library",
+        "./dist/my-custom-library/lib/MyCustomLibraryComponent"
       ]
     },
     "esModuleInterop": true,
